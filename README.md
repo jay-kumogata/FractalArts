@@ -1,5 +1,5 @@
 # LifeMathematics
-Life science and mathematics
+Mathematics for life science
 
 ## Demo list
 
