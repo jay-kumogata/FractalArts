@@ -88,6 +88,4 @@ def draw():
 # メイン
 pyxel.run(update, draw)
 
-# end of bzr.py
-            
-            
+# end of bzr.py            
