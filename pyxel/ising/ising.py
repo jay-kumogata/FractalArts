@@ -1,8 +1,16 @@
+#
+# Pyxelを使ってIsingモデルを表示
+# 「おいも貴婦人ブログ」を参考にしました．
+# https://oimokihujin.hatenablog.com/entry/2015/10/30/180435
+#
+# Jan 23, 2023 ver.1 (changed graphics library to pyxel)
+# Aug 28, 2023 ver.2 (code refactoring)
+#
+
 # -*- coding: utf-8 -*-
 import copy
 
 import numpy as np
-#import matplotlib.pyplot as plt
 import pyxel
 
 class Ising2D:
@@ -18,9 +26,6 @@ class Ising2D:
         self.neighbors = [[-1,0],[1,0],[0,-1],[0,1]]
         self.T = 1
 
- #   def main(self):
- #       self.MC(500)
-        
     def calcE(self,xy):
         E = 0
         for x in range(self.dimx):
@@ -48,37 +53,29 @@ class Ising2D:
                 pro = np.random.random()
                 if pro < np.exp(-(Eafter-Epre)/self.T):
                     self.xy = txy
-#            self.show(i)
         
-#    def show(self,index):
-#        fig = plt.figure()
-#        ax = fig.add_subplot(111)
-#        ax.matshow(self.xy)
-#        filename = "ising%05d.png" % (index)
-#        plt.savefig(filename)
-
-
-#if __name__ == "__main__":
-#    tmp = Ising2D()
-#    tmp.main()
-
+# モデルオブジェクト生成
 o = Ising2D()
 
 # Pyxel初期化
 pyxel.init(50,50, title="ising")
 
+
+# Pyxel更新
 def update():
     global o
-#    o.MC(1)
     o.MC(10)
 
+# Pyxel描画    
 def draw():
     global o
     pyxel.cls(0)
     for x in range(50):
         for y in range(50):
-#            c = o.xy[x][y] + 2
+            # 2値
+            # c = o.xy[x][y] + 2
 
+            # 9値: 4近傍値と同じセル数を使う
             c = 5
             for neighbor in o.neighbors:
                 nx = (x + neighbor[0]) % o.dimx
@@ -99,4 +96,4 @@ def draw():
 # メイン
 pyxel.run(update, draw)
 
-# end of grayscott.py
+# end of ising.py
