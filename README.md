@@ -1,5 +1,5 @@
-# LifeMathematics
-Life science and Mathematics
+# FractalArt
+Collection of fractal art works
 
 ## Demo list
 
