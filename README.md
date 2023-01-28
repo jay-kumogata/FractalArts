@@ -1,5 +1,5 @@
-# FractalArt
-Collection of fractal art works
+# FractalArtworks
+Collection of fractal artworks
 
 ## Demo list
 
