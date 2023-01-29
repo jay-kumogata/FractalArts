@@ -1,4 +1,4 @@
-# FractalArtworksworks
+# FractalArts
 Collection of fractal artworks
 
 ## Demo list
