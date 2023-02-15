@@ -1,7 +1,7 @@
 #
 # Pyxelを使ってKoch曲線を表示
-# 「【python】matplotlibでフラクタル図形(コッホ曲線)を描く」を参考にしました．
-# https://mori-memo.hateblo.jp/entry/2022/02/05/172505
+# morikomorou’s blogの記事を参考にしました．
+# cf. https://mori-memo.hateblo.jp/entry/2022/02/05/172505
 #
 # Feb 12, 2023 ver.1 (changed graphics library to pyxel)
 # Feb 15, 2023 ver.2 (code refactoring)
