@@ -1,7 +1,7 @@
 # FractalArts
 Collection of fractal artworks
 
-## Demo list
+## Artwork list
 
 |No.|Date|Title|Platform|Content|
 |---|----|----|---------|-------|
@@ -11,3 +11,4 @@ Collection of fractal artworks
 |4|2023-01-09|[bzr](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/bzr) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/bzr/screenshots/bzr01.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/bzr/screenshots/bzr02.gif" width="100">|
 |5|2023-01-28|[ising](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/ising) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/ising/screenshots/ising01.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/ising/screenshots/ising02.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/ising/screenshots/ising03.gif" width="100">|
 |6|2023-02-12|[koch](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/koch) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/koch/screenshots/koch01.gif" width="100"> 
+|7|2023-03-12|[mira](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/mira) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/mira/screenshots/mira01.gif" width="100"> 
