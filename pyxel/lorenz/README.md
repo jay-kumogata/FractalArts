@@ -12,3 +12,8 @@ It is the famous Lorenz attractor.
 Please execute the following from the Pyxel (version 1.7.0) environment.
 
 	> python lorenz.py
+	
+## How to Control
+
+- [right-arrow]: Rotate right
+- [left-arrow]: Rotate left
