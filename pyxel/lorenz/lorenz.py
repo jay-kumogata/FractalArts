@@ -1,9 +1,10 @@
 # 
-# Pyxelを使ってLorenzデモを表示
+# Pyxelを使ってLorenz Attractorを表示
 # 「Lorenz system (274 chars, code follows)」を参考にしました．
 # https://twitter.com/SkyBerron/status/1586638426887098371
 #
-# Apr 11, 2023 ver.1 (changed graphics library to pyxel)
+# Apr 11, 2023 ver.1 (PICO-8/LuaからPyxel/Pythonに移植)
+# Apr 16, 2023 ver.2 (キー操作で回転する機能を追加)
 #
 # -*- coding: utf-8 -*-
 import math
@@ -20,14 +21,19 @@ j=-1
 t=0
 
 # Pyxel初期化
-pyxel.init(256,256,title="Lorenz Attractor")
+pyxel.init(256,256,title="Lorenz Attractor",fps=60)
 
 def update():
-    """NONE"""
+    global x,y,z,k,p,n,m,j,t
+    # キー操作で左右に回転
+    if pyxel.btn( pyxel.KEY_LEFT ):
+        t-=k
+    if pyxel.btn( pyxel.KEY_RIGHT ):
+        t+=k
+    
 def draw():
     global x,y,z,k,p,n,m,j,t
     pyxel.cls(1)
-    t+=k
     u=4*math.cos(t)
     v=4*math.sin(t)
     for i in range(1,n):
@@ -44,4 +50,3 @@ def draw():
 pyxel.run(update,draw)
 
 # End of lorenz.py
-
