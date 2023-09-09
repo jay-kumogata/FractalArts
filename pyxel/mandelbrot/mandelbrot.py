@@ -1,20 +1,22 @@
-# Pyxelを使ってMandelbrot集合を表示(2022.09.11)
+# Pyxelを使ってMandelbrot集合を表示
 # 「morikomorou’s blog
 # 【python】matplotlibでフラクタル図形(マンデルブロ集合)を描く」を参考にしました．
 # https://mori-memo.hateblo.jp/entry/2022/02/08/012422
-
+#
+# Sep 11, 2022 ver.1 (Pyxel対応/拡大縮小)
+# Sep 09, 2023 ver.2 (上下左右へ移動)
+#
 # -*- coding: utf-8 -*-
 import numpy as np
 import pyxel
 
-re_min = -2.0
-re_max = 2.0
-im_max = 2.0
-im_min = -2.0
+# 定数
+re_center = 0.0           # 実部(中央)
+im_center = 0.0           # 虚部(中央)
+diam = 4                  # 空間サイズ(実部/虚部)
+grid_size = 64            # 表示サイズ[ピクセル]
 
-re_v = .1
-im_v = .1
-
+# マンデルブロ集合の判定
 def mandelbrot(max, comp):
     re, im = comp[0], comp[1]
     #実部がre，虚部がimの複素数を作成
@@ -32,44 +34,43 @@ def mandelbrot(max, comp):
     return max     #無限大に発散しない場合にはmaxを返す
 
 # Pyxel初期化
-pyxel.init(128, 128, title="mandelbrot")
+pyxel.init(grid_size, grid_size, title="mandelbrot",fps=10)
 
 def update():
-    global re_min,re_max,im_max,im_min,re_v,im_v
+    global re_center,im_center,diam
 
+    # 画面サイズの1/10だけ上下左右
     if pyxel.btn(pyxel.KEY_LEFT):
-        re_min -= re_v
-        re_max -= re_v
+        re_center -= diam / 10.0
     if pyxel.btn(pyxel.KEY_RIGHT):
-        re_min += re_v
-        re_max += re_v
+        re_center += diam / 10.0
     if pyxel.btn(pyxel.KEY_DOWN):
-        im_max -= im_v
-        im_min -= im_v
+        im_center -= diam / 10.0
     if pyxel.btn(pyxel.KEY_UP):
-        im_max += im_v
-        im_min += im_v
-    if pyxel.btn(pyxel.KEY_Z):
-        re_min *= .99
-        re_max *= .99
-        im_max *= .99
-        im_min *= .99
-        re_v   *= .99
-        im_v   *= .99
-    if pyxel.btn(pyxel.KEY_X):
-        re_min *= 1.01
-        re_max *= 1.01
-        im_max *= 1.01
-        im_min *= 1.01
-        re_v   *= 1.01
-        im_v   *= 1.01
-        
-def draw():
+        im_center += diam / 10.0
 
-    global re_min,re_max,im_max,im_min
+    # 画面サイズの1%だけ拡大縮小
+    if pyxel.btn(pyxel.KEY_Z):
+        diam *= 0.99
+    if pyxel.btn(pyxel.KEY_X):
+        diam /= 0.99
+
+    # 現時点のパラメタ表示（綺麗な箇所を発見した場合に記録）
+    if pyxel.btn(pyxel.KEY_SPACE):
+        print (re_center, im_center, diam)
+
+# 表示
+def draw():
+    global re_center,im_center,diam
+
+    # 画面の座標に変換
+    re_min = re_center - diam
+    re_max = re_center + diam
+    im_min = im_center - diam
+    im_max = im_center + diam
     
-    re = np.linspace(re_min, re_max, 128)
-    im = np.linspace(im_max, im_min, 128)
+    re = np.linspace(re_min, re_max, grid_size)
+    im = np.linspace(im_max, im_min, grid_size)
 
     #実部と虚部の組み合わせを作成
     Re, Im = np.meshgrid(re, im)
@@ -81,12 +82,11 @@ def draw():
     for i, c_point in enumerate(comp):
         Mandelbrot[i] = mandelbrot(100, c_point)
 
-    Mandelbrot = Mandelbrot.reshape((128, 128))
+    Mandelbrot = Mandelbrot.reshape((grid_size, grid_size))
 
-    pyxel.cls(0)
-
-    for x in range(128):
-        for y in range(128):
+    # 表示
+    for x in range(grid_size):
+        for y in range(grid_size):
             c = int(Mandelbrot[x,y]) % 16
             pyxel.pset(y, x, c)
 
