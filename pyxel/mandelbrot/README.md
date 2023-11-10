@@ -4,7 +4,7 @@
 
 The Mandelbrot set is the set of complex numbers C for which the function Z = Z^2 + C does not diverge to infinity when iterated from Z = 0.
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/mandelbrot/screenshots/mandelbrot02.gif" width="150">
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/mandelbrot/screenshots/mandelbrot02.gif" width="256">
 
 ## How to Run
 
