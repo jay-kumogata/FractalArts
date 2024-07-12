@@ -1,7 +1,7 @@
 # 
 # Pyxelを使ってEnergy Flows in Swirlsを表示
 # 「Energy Flows in Swirls (229 chars, code follows)」を参考にしました．
-# cf. https://twitter.com/SkyBerron/status/1582371082517946369
+# cf. https://twitter.com/SkyBerron/status/1582370900980080641
 #
 # July 12, 2024 ver.1 (PICO-8/LuaからPyxel/Pythonに移植)
 #
