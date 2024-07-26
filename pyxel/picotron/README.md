@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I ported [Picotron Demo](https://twitter.com/euphoria6611/status/1810718359035773350) to Pyxel/Python. 
+I ported Mr. 6611 Rozie rozphonix's [Picotron Demo](https://twitter.com/euphoria6611/status/1810718359035773350) to Pyxel/Python. 
 
 <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/picotron/screenshots/picotron01.gif" width="240" />
 
