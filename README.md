@@ -15,4 +15,5 @@ Collection of fractal artworks
 |8|2023-04-07|[toroid](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/toroid) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/toroid/screenshots/toroid01.gif" width="100"> 
 |9|2023-04-11|[lorenz](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/lorenz) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/lorenz/screenshots/lorenz01.gif" width="100"> 
 |10|2023-04-18|[singularity](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/singularity) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/singularity/screenshots/singularity01.gif" width="100"> 
-|11|2024-07-12|[energy](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/energy) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/energy/screenshots/energy01.gif" width="100"> 
+|11|2024-07-12|[energy](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/energy) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/energy/screenshots/energy01.gif" width="100">
+|12|2024-07-26|[picotron](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/picotron) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/picotron/screenshots/picotron01.gif" width="100"> 
