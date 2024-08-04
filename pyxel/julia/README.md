@@ -1,16 +1,16 @@
-# Mandelbrot set
+# Julia set
 
 ## Introduction
 
 This is the Julia set of c=-0.4+0.6i.
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/mandelbrot/screenshots/mandelbrot01.gif" width="192">
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/julia/screenshots/julia01.gif" width="192">
 
 ## How to Run
 
-Please execute the following on the Pyxel (version 1.7.0) environment.
+Please execute the following on the Pyxel (version 2.0.13) environment.
 
-	> python mandelbrot.py
+	> python julia.py
   
 ## How to Control
 
