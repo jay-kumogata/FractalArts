@@ -5,6 +5,7 @@
 #
 # Aug 04, 2024 ver.1 (Pyxel対応/拡大縮小)
 # Aug 06, 2024 ver.2 (矢印キーでパラメータを操作)
+# Aug 12, 2024 ver.3 (パレットを変更)
 #
 # -*- coding: utf-8 -*-
 import numpy as np
@@ -14,7 +15,7 @@ import pyxel
 re_center = 0.0           # 中央(実部)
 im_center = 0.0           # 中央(虚部)
 diam = 2                  # 空間サイズ(実部/虚部)
-grid_size = 64            # 表示サイズ[ピクセル]
+grid_size = 128           # 表示サイズ[ピクセル]
 re_param = -0.4           # パラメータ(実部)
 im_param = 0.6            # パラメータ(虚部)
 
@@ -85,7 +86,10 @@ def draw():
     Julia = Julia.reshape((grid_size, grid_size))
 
     # 4色パレット(ゲームボーイ風)
-    pal = [1,3,11,14] # 
+    #pal = [1,3,11,14]
+
+    # 4色パレット(ザナドゥ風)
+    pal = [1,5,10,12]
 
     # 表示
     for x in range(grid_size):
@@ -98,8 +102,7 @@ def draw():
     s = f"c = {re_param :.2f}"
     if 0 <= im_param: s += "+"
     s += f"{im_param :.2f}i"
-    #pyxel.text(0,0,s,7)
-    pyxel.text(0,0,s,14)
+    pyxel.text(0,0,s,pal[3])
     
 # メイン
 pyxel.run(update, draw)
