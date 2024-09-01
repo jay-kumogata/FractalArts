@@ -9,6 +9,7 @@ The Mandelbrot set is the set of complex numbers C for which the function Z = Z^
 ## How to Run
 
 Please execute the following on the Pyxel (version 1.7.0) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.mandelbrot.mandelbrot&packages=numpy).
 
 	> python mandelbrot.py
   
