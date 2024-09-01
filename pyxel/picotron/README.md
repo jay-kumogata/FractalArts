@@ -9,5 +9,6 @@ I ported Mr. 6611 Rozie rozphonix's [Picotron Demo](https://twitter.com/euphoria
 ## How to Run
 
 Please execute the following from the Pyxel (version 2.1.4) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.picotron.picotron&packages=numpy).
 
 	> python picotron.py
