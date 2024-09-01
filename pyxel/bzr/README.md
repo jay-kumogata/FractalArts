@@ -11,6 +11,7 @@ This is the result at α=1.2, β=γ=1.0. You can see how the pattern disappears 
 ## How to Run
 
 Please execute the following from the Pyxel (version 1.7.0) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.bzr.bzr&packages=numpy).
 
 	> python bzr.py
   
