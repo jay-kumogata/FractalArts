@@ -12,6 +12,7 @@ I referred to [the article](https://oimokihujin.hatenablog.com/entry/2015/10/30/
 ## How to Run
 
 Please execute the following from the Pyxel (version 1.7.0) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.ising.ising&packages=numpy).
 
 	> python ising.py
   
