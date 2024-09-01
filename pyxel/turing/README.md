@@ -15,6 +15,7 @@ I tried to display it with Pyxel as a practice.
 ## How to Run
 
 Please execute the following from the Pyxel (version 1.7.0) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.turing.turing&packages=numpy).
 
 	> python turing.py
 
