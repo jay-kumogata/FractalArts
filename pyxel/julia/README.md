@@ -10,6 +10,7 @@ If you change the parameter C (=Cre+Cim*i), the shape of the Julia set will also
 ## How to Run
 
 Please execute the following on the Pyxel (version 2.0.13) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.julia.julia&packages=numpy).
 
 	> python julia.py
   
