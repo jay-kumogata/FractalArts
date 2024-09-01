@@ -10,5 +10,6 @@ It looks like the inside of the singularity. It doesn't seem to be the opening o
 ## How to Run
 
 Please execute the following from the Pyxel (version 1.7.0) environment.
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.singularity.singularity&packages=numpy).
 
 	> python singularity.py
