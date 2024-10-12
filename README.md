@@ -22,3 +22,4 @@ Collection of fractal artworks
 |15|2024-09-11|[dadras](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/dadras) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/dadras/screenshots/dadras01.gif" width="100"> 
 |16|2024-09-12|[chen](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/chen) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/chen/screenshots/chen01.gif" width="100"> 
 |17|2024-09-19|[halvorsen](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/halvorsen) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/halvorsen/screenshots/halvorsen01.gif" width="100"> 
+|18|2024-09-20|[sprott](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/sprott) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/sprott/screenshots/sprott01.gif" width="100"> 
