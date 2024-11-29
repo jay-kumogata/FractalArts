@@ -5,6 +5,7 @@
 #
 # Jul 12, 2024 ver.1 (PICO-8/LuaからPyxel/Pythonに移植)
 # Oct 30, 2024 ver.2 (128x128ピクセル，4色で表示)
+# Nov 29, 2024 ver.3 (144x144ピクセル，4色で表示)
 #
 # -*- coding: utf-8 -*-
 import math
@@ -14,24 +15,24 @@ import random as rnd
 def init():
     global h,t,u,v,pal
 
-    h=64
+    h=72
     t=0
     u=0
     v=0
 
     # 乱択パレット
     pal = [1,rnd.randint(2,5),rnd.randint(6,11),rnd.randint(12,15)]
-
+    
 def update():
     """NONE"""
 def draw():
     global h,t,u,v,pal
     pyxel.cls(1)
     t+=.05
-    for j in range(1,64):
-        l=1+j/63
-        for i in range(0,128):
-            k=i/128
+    for j in range(1,72):
+        l=1+j/71
+        for i in range(0,144):
+            k=i/144
             a=k+l*t
             x=l*math.cos(a)
             y=l*math.sin(a)
@@ -52,7 +53,7 @@ def draw():
             
 # メイン
 init()
-pyxel.init(128,128,title="energy")
+pyxel.init(144,144,title="energy")
 pyxel.run(update,draw)
 
 # End of energy.py

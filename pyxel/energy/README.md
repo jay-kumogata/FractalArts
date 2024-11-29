@@ -4,7 +4,7 @@
 
 I ported Mr. SkyBerron's [Energy Flows in Swirls](https://twitter.com/SkyBerron/status/1582370900980080641) to Pyxel/Python. 
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/energy/screenshots/energy03.gif" width="256"> 
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/energy/screenshots/energy04.gif" width="216"> 
 
 ## How to Run
 
