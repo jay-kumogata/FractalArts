@@ -153,4 +153,21 @@ Pyxelで動作するEnergy Flows in Swirlsの
 [ソースリスト](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/energy)
 を公開しました．
 
+### 2024-12-31
+
+「ストレンジアトラクタ」の一種である「ローレンツアトラクタ(1983年)」を，Pyxelで描いてみました．
+GameBoy仕様を意識して，144x144ピクセル，4色縛りです．
+[リンク](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.lorenz83.lorenz83)から，ブラウザでも動かせます．
+
+![](https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/lorenz83/screenshots/lorenz8301.gif)
+
+ローレンツアトラクタ(1983年)の常微分方程式は，以下で示されます．
+
+$\dfrac{dx}{dt} = -ax - y^2 - z^2 + af$<br>
+$\dfrac{dy}{dt} = -y + xy - bxz + g$<br>
+$\dfrac{dz}{dt} = -z + bxy + xy$<br>
+$where \ a, \ b, \ f, \ and \ g \ are \ constants.$<br>
+
+パラメータとしては，a=0.95, b=7.91, f = 4.83, g=4.66，初期条件としては，x = -0.2，y = -2.82，z = 2.71 を与えています．
+
 以上
