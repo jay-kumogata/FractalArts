@@ -1,5 +1,5 @@
 # 
-# Four-Wing Attractorデモを表示
+# Fourwing Attractorデモを表示
 # 「Dynamic Mathematics / Strange Attractors」を参考にしました．
 # cf. https://www.dynamicmath.xyz/strange-attractors/
 #
@@ -81,7 +81,7 @@ def draw():
 
 # メイン
 init()
-pyxel.init(grid,grid,title="Four-Wing Attractor")
+pyxel.init(grid,grid,title="Fourwing Attractor")
 pyxel.run(update,draw)
 
-# End of four_wing.py
+# End of fourwing.py
