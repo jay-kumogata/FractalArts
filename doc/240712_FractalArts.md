@@ -166,7 +166,7 @@ GameBoy仕様を意識して，144x144ピクセル，4色縛りです．
 $\dfrac{dx}{dt} = -ax - y^2 - z^2 + af$<br>
 $\dfrac{dy}{dt} = -y + xy - bxz + g$<br>
 $\dfrac{dz}{dt} = -z + bxy + xy$<br>
-$where \ a, \ b, \ f, \ and \ g \ are \ constants.$<br>
+$where \ a, \ b, \ f \ and \ g \ are \ constants.$<br>
 
 パラメータとしては，a=0.95, b=7.91, f = 4.83, g=4.66，初期条件としては，x = -0.2，y = -2.82，z = 2.71 を与えています．
 
