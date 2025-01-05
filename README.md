@@ -25,4 +25,5 @@ Collection of fractal artworks
 |18|2024-09-20|[sprott](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/sprott) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/sprott/screenshots/sprott01.gif" width="100"> 
 |19|2024-12-30|[lorenz83](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/lorenz83) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/lorenz83/screenshots/lorenz8301.gif" width="100"> 
 |20|2025-01-02|[rossler](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/rossler) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/rossler/screenshots/rossler01.gif" width="100"> 
-|21|2025-01-02|[fourwing](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/fourwing) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/fourwing/screenshots/fourwing01.gif" width="100"> 
+|21|2025-01-03|[fourwing](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/fourwing) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/fourwing/screenshots/fourwing01.gif" width="100"> 
+|22|2025-01-05|[threescroll](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/threescroll) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/threescroll/screenshots/threescroll01.gif" width="100"> 
