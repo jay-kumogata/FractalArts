@@ -9,6 +9,6 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 ## How to Run
 
 Please execute the following from the Pyxel (version 2.2.10) environment.
-Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.boids.boids).
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.boids.boids&packages=numpy).
 
 	> python boids.py
