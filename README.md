@@ -27,3 +27,4 @@ Collection of fractal artworks
 |20|2025-01-02|[rossler](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/rossler) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/rossler/screenshots/rossler01.gif" width="100"> 
 |21|2025-01-03|[fourwing](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/fourwing) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/fourwing/screenshots/fourwing01.gif" width="100"> 
 |22|2025-01-05|[threescroll](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/threescroll) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/threescroll/screenshots/threescroll01.gif" width="100"> 
+|23|2025-01-17|[boids](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/boids) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/boids/screenshots/boids01.gif" width="100"> 
