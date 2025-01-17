@@ -172,6 +172,8 @@ Pyxelで動作するEnergy Flows in Swirlsの
 ボイド(Boids)シミュレーションを改造して，144x144ピクセル，4色縛りのバージョンを作ってみました．
 また，ローレンツアトラクタ(1983年)も改造して，144x144ピクセル，4色縛りのバージョンを作ってみました．
 
+![](https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/boids/screenshots/boids01.gif)
+
 ### 2024-12-31
 
 「ストレンジアトラクタ」の一種である「ローレンツアトラクタ(1983年)」を，Pyxelで描いてみました．
