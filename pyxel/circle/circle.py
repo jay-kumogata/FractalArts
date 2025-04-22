@@ -4,7 +4,7 @@ import random
 
 class App:
     def __init__(self):
-        pyxel.init(500, 500, title="円の喧伝", fps=10)
+        pyxel.init(500, 500, title="Buzz of circle", fps=10)
         self.f = 0
         # ノイズ用のグリッドを初期化
         self.grid_size = 30
