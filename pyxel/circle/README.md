@@ -4,7 +4,7 @@
 
 I ported [Buzz of circle](https://x.com/SnowEsamosc/status/1909216344219996398) to Pyxel/Python. 
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/circle/screenshots/circle01.gif" width="160" />
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/circle/screenshots/circle01.gif" width="250" />
 
 ## How to Run
 
