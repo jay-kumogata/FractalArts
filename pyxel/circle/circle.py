@@ -4,7 +4,7 @@ import random
 
 class App:
     def __init__(self):
-        pyxel.init(500, 500, title="変換されたスケッチ（簡易Perlin風）",fps=10)
+        pyxel.init(500, 500, title="円の喧伝", fps=10)
         self.f = 0
         # ノイズ用のグリッドを初期化
         self.grid_size = 30
@@ -61,3 +61,5 @@ class App:
                 pyxel.rect(x, y, 7, 7, color_val)
 
 App()
+
+# End of circle.py
