@@ -4,12 +4,12 @@
 
 It is a Box demo.
 
-<img src="https://github.com/jay-kumogata/RetroGames/blob/main/pyxel/box/screenshots/box02.gif" width="144">
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/box/screenshots/box02.gif" width="144">
 
 ## How to Play
 
 Please execute the following from the Pyxel (version 2.2.10) environment.
-Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.RetroGames.pyxel.box.box&packages=numpy).
+Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumogata.FractalArts.pyxel.box.box&packages=numpy).
 
 	> python box.py
 
