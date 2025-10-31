@@ -2,9 +2,9 @@
 
 ## Introduction
 
-I drew the clifford attractor with Pyxel/Python.
+I drew the Clifford attractor with Pyxel/Python.
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford01.gif" width="144"> 
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford01.gif" width="144"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford02.gif" width="144"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford03.gif" width="144"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford04.gif" width="144"> 
 
 ## How to Run
 
@@ -21,3 +21,4 @@ Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumo
 - [V]/[CV]: Increase/Decrease the parameter 'd'
 
 ## Remarks
+
