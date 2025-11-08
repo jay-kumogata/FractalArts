@@ -4,7 +4,7 @@
 
 It is a Box demo.
 
-<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/box/screenshots/box02.gif" width="144">
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/box/screenshots/box01.gif" width="144"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/box/screenshots/box02.gif" width="144">
 
 ## How to Play
 
@@ -15,11 +15,8 @@ Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumo
 
 ## How to Control
 
-- [LEFT]: Rotate on the X axis (negative direction)
-- [RIGHT]: Rotate on the X axis (positive direction)
-- [UP]: Rotate on the Y axis (negative direction)
-- [DOWN]: Rotate on the Y axis (positive direction)
-- [Z]: Rotate on the Z axis (negative direction)
-- [X]: Rotate on the Z axis (positive direction)
+- [LEFT]/[RIGHT]: Rotate on the X axis (negative/positive direction)
+- [UP]/[DOWN]: Rotate on the Y axis (negative/positive direction)
+- [Z]/[X]: Rotate on the Z axis (negative/positive direction)
 
 ## Remarks
