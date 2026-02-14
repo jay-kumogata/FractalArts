@@ -1,5 +1,9 @@
 # FractalArts
-Collection of fractal artworks
+Collection of fractal artworks.<br>
+[FractalArtsNote in 2022](doc/220501_FractalArts.md), 
+[FractalArtsNote in 2023](doc/230106_FractalArts.md),
+[FractalArtsNote in 2024](doc/240712_FractalArts.md) and
+[FractalArtsNote in 2025](doc/250101_FractalArts.md) are here.
 
 ## Artwork list
 
