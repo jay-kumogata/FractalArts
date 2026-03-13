@@ -6,6 +6,7 @@
 # May 03, 2022 ver.1 (changed graphics library to pyxel)
 # Aug 24, 2022 ver.2 (code refactoring)
 # Nov 23, 2023 ver.3 (added color palette)
+# Mar 13, 2026 ver.4 (added color palette)
 #
 
 # -*- coding: utf-8 -*-
@@ -57,7 +58,8 @@ v += np.random.rand(SPACE_GRID_SIZE, SPACE_GRID_SIZE)*0.1
 #pal = [1,5,12,6] # blue
 #pal = [1,3,11,13] # green
 #pal = [1,3,11,14] # pink
-pal = [14,11,3,1] # pink
+#pal = [14,11,3,1] # pink
+pal = [12,8,7,5] # myaku myaku
 
 # Pyxel初期化
 pyxel.init(SPACE_GRID_SIZE, SPACE_GRID_SIZE, title="grayscott")
