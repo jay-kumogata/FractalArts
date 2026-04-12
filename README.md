@@ -23,6 +23,7 @@ Collection of fractal artworks.<br>
 |10|2025-01-05|[threescroll](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/threescroll) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/threescroll/screenshots/threescroll01.gif" width="100"> |
 |11|2025-10-31|[clifford](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/clifford) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford01.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford02.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford03.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/clifford/screenshots/clifford04.gif" width="100">|
 |12|2025-11-22|[aizawa](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/aizawa) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/aizawa/screenshots/aizawa01.gif" width="100"> |
+|13|2026-04-12|[simone](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/simone) |Pyxel|<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/simone/screenshots/simone01.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/simone/screenshots/simone02.gif" width="100"> <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/simone/screenshots/simone03.gif" width="100"> |
 
 ### Miscellaneous 
 
