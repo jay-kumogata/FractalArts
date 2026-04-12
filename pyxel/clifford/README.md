@@ -18,7 +18,7 @@ Or you can play [here](https://kitao.github.io/pyxel/wasm/launcher/?run=jay-kumo
 - [RIGHT]/[LEFT]: Increase/Decrease the parameter 'a'
 - [DOWN]/[UP]: Increase/Decrease the parameter 'b'
 - [X]/[Z]: Increase/Decrease the parameter 'c'
-- [V]/[CV]: Increase/Decrease the parameter 'd'
+- [V]/[C]: Increase/Decrease the parameter 'd'
 
 ## Remarks
 
