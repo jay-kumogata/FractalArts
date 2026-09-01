@@ -55,3 +55,4 @@ Collection of fractal artworks.<br>
 |6|2025-04-22|[circle](pyxel/circle) |Pyxel|<img src="pyxel/circle/screenshots/circle01.gif" width="100"> |
 |7|2025-10-19|[box](pyxel/box) |Pyxel|<img src="pyxel/box/screenshots/box01.gif" width="100">  <img src="pyxel/box/screenshots/box02.gif" width="100"> |
 |8|2026-04-18|[dodeca](pyxel/dodeca) |Pyxel|<img src="pyxel/dodeca/screenshots/dodeca01.gif" width="100">  <img src="pyxel/dodeca/screenshots/dodeca02.gif" width="100"> |
+|9|2026-09-02|[sphere](pyxel/sphere) |Pyxel|<img src="pyxel/sphere/screenshots/sphere01.gif" width="100">  <img src="pyxel/sphere/screenshots/sphere02.gif" width="100"> |
