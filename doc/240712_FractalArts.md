@@ -7,6 +7,14 @@ SkyBerron氏の[Energy Flows in Swirls](https://twitter.com/SkyBerron/status/158
 
 <img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/energy/screenshots/energy01.gif" width=256 />
 
+### 2024-07-26
+
+『昔のフォルダを整理していたら』シリーズの第5弾（その5）です．
+6611 Rozie rozphonix氏のpictronのデモをPyxelに写経してみました．案外似た感じにできたかもしれません．
+[ソースコード](https://github.com/jay-kumogata/FractalArts/tree/main/pyxel/picotron)も公開しました．
+
+<img src="https://github.com/jay-kumogata/FractalArts/blob/main/pyxel/picotron/screenshots/picotron01.gif" width=256 />
+
 ### 2024-08-04
 
 Pyxelでジュリア集合をPICO-8仕様(128x128ピクセル，16階調）で描画してみました．[Z][X]キーでズームイン/アウトができます．
